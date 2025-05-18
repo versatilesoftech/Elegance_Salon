@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegance Salon</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- custom css -->
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home" aria-label="Elegance Salon Home">
+                Elegance<span>Salon</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reviews">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+                        <h1 class="hero-title">Beauty & Style Redefined</h1>
+                        <p class="hero-subtitle">Indulge in luxury hair care and transformative styling at our premium salon</p>
+                        <a href="#contact" class="btn btn-custom" aria-label="Book an Appointment">Book Appointment</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about" aria-labelledby="about-title">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 id="about-title" class="section-title" style="color: black;">About Elegance Salon</h2>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-1 order-2">
+                    <div class="about-img">
+                        <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1770&q=80" alt="Elegance Salon interior" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-2 order-1">
+                    <div class="about-content">
+                        <h3>Transforming Beauty Since 2010</h3>
+                        <p>At Elegance Salon, we craft personalized experiences that enhance your unique style. Our expert stylists combine artistry with the latest techniques to deliver exceptional hair care and styling services.</p>
+                        <p>We prioritize your individuality, taking time to understand your needs and preferences. Using premium products, we ensure every visit leaves you feeling confident and refreshed.</p>
+                        <p>Join us to experience the Elegance difference—where passion meets perfection.</p>
+                        <a href="#services" class="btn btn-custom" aria-label="Explore our salon services">Discover Our Services</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-title">Our Services</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fas fa-cut"></i>
+                        </div>
+                        <h3>Haircut & Styling</h3>
+                        <p>Professional haircuts and styling tailored to your preferences and face shape.</p>
+                        <div class="service-price">From $45</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3>Hair Coloring</h3>
+                        <p>Full color, highlights, balayage, and ombre using premium products.</p>
+                        <div class="service-price">From $85</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fas fa-spa"></i>
+                        </div>
+                        <h3>Hair Treatments</h3>
+                        <p>Nourishing treatments to repair damaged hair and restore natural shine.</p>
+                        <div class="service-price">From $65</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fas fa-fire"></i>
+                        </div>
+                        <h3>Keratin Treatment</h3>
+                        <p>Smoothing treatments to eliminate frizz and enhance manageability.</p>
+                        <div class="service-price">From $120</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3>Bridal Packages</h3>
+                        <p>Comprehensive hair and makeup for brides and their wedding parties.</p>
+                        <div class="service-price">From $200</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <h3>Men's Grooming</h3>
+                        <p>Precision cuts, beard trims, and grooming services for a polished look.</p>
+                        <div class="service-price">From $50</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="reviews-title">Client Reviews</h2>
+                </div>
+            </div>
+            <div class="swiper reviews-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="review-item">
+                            <div class="review-img">
+                                <img src="https://randomuser.me/api/portraits/women/1.jpg" alt="Client">
+                            </div>
+                            <div class="review-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="review-text">"I've been coming to Elegance Salon for over a year now, and I'm always impressed with the quality of service. My stylist always listens to what I want and delivers amazing results!"</p>
+                            <h4 class="review-author">Sarah Johnson</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="review-item">
+                            <div class="review-img">
+                                <img src="https://randomuser.me/api/portraits/women/2.jpg" alt="Client">
+                            </div>
+                            <div class="review-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="review-text">"The keratin treatment I got at Elegance Salon completely transformed my hair. It's now so much easier to manage, and I've received so many compliments!"</p>
+                            <h4 class="review-author">Emily Davis</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="review-item">
+                            <div class="review-img">
+                                <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="Client">
+                            </div>
+                            <div class="review-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p class="review-text">"I had my hair colored at Elegance Salon, and I couldn't be happier with the results. The color is exactly what I wanted, and the staff was so friendly and professional."</p>
+                            <h4 class="review-author">Jessica Wilson</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="review-item">
+                            <div class="review-img">
+                                <img src="https://randomuser.me/api/portraits/women/4.jpg" alt="Client">
+                            </div>
+                            <div class="review-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="review-text">"The spa treatments at Elegance Salon are absolutely divine. The staff is professional and the atmosphere is so relaxing. A perfect escape!"</p>
+                            <h4 class="review-author">Rachel Thompson</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="review-item">
+                            <div class="review-img">
+                                <img src="https://randomuser.me/api/portraits/women/5.jpg" alt="Client">
+                            </div>
+                            <div class="review-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p class="review-text">"My wedding makeup was flawless! The team really understood my vision and made me feel beautiful on my special day."</p>
+                            <h4 class="review-author">Michelle Parker</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="review-item">
+                            <div class="review-img">
+                                <img src="https://randomuser.me/api/portraits/women/6.jpg" alt="Client">
+                            </div>
+                            <div class="review-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="review-text">"The nail art here is incredible! The technicians are true artists and always create stunning designs."</p>
+                            <h4 class="review-author">Amanda Foster</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="review-item">
+                            <div class="review-img">
+                                <img src="https://randomuser.me/api/portraits/women/7.jpg" alt="Client">
+                            </div>
+                            <div class="review-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="review-text">"The facial treatment was amazing! My skin feels refreshed and rejuvenated. Will definitely be coming back!"</p>
+                            <h4 class="review-author">Lauren Mitchell</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="review-item">
+                            <div class="review-img">
+                                <img src="https://randomuser.me/api/portraits/women/8.jpg" alt="Client">
+                            </div>
+                            <div class="review-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="review-text">"Best waxing service in town! Quick, professional, and as painless as possible. The staff is very considerate."</p>
+                            <h4 class="review-author">Sophie Anderson</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="review-item">
+                            <div class="review-img">
+                                <img src="https://randomuser.me/api/portraits/women/9.jpg" alt="Client">
+                            </div>
+                            <div class="review-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p class="review-text">"Love their hair styling services! They always know exactly how to achieve the look I want."</p>
+                            <h4 class="review-author">Emma Roberts</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="review-item">
+                            <div class="review-img">
+                                <img src="https://randomuser.me/api/portraits/women/10.jpg" alt="Client">
+                            </div>
+                            <div class="review-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="review-text">"The massage therapy here is exceptional. It's my go-to place for stress relief and relaxation."</p>
+                            <h4 class="review-author">Olivia Bennett</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="review-item">
+                            <div class="review-img">
+                                <img src="https://randomuser.me/api/portraits/women/11.jpg" alt="Client">
+                            </div>
+                            <div class="review-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="review-text">"Their makeup artists are incredibly talented. They made me look stunning for my graduation!"</p>
+                            <h4 class="review-author">Grace Taylor</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="review-item">
+                            <div class="review-img">
+                                <img src="https://randomuser.me/api/portraits/women/12.jpg" alt="Client">
+                            </div>
+                            <div class="review-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p class="review-text">"The pedicure service is top-notch! My feet have never felt better. The attention to detail is impressive."</p>
+                            <h4 class="review-author">Isabella White</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Navigation buttons -->
+                <!-- <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div> -->
+                <!-- Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-title" style="color: white;">Contact Us</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="contact-info">
+                        <h3>Get In Touch</h3>
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Location</h4>
+                                <p>123 Beauty Street, New York, NY 10001</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <p>(123) 456-7890</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>info@elegancesalon.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Working Hours</h4>
+                                <p>Monday - Saturday: 9:00 AM - 8:00 PM</p>
+                                <p>Sunday: 10:00 AM - 6:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact-form">
+                        <h3>Send a Message</h3>
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Your Name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control" placeholder="Your Email" required>
+                                </div>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Subject">
+                            <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                            <button type="submit" class="btn btn-custom w-100">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Ready to Transform Your Look?</h2>
+                    <p>Book an appointment today and experience the Elegance difference.</p>
+                    <a href="#contact" class="btn btn-custom">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-widget">
+                        <div class="footer-logo">Elegance<span>Salon</span></div>
+                        <p class="footer-text">We are dedicated to providing the highest quality hair care services in a relaxing and welcoming environment.</p>
+                        <div class="footer-social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-widget footer-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#reviews">Reviews</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-widget footer-links">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li><a href="#">Haircut & Styling</a></li>
+                            <li><a href="#">Hair Coloring</a></li>
+                            <li><a href="#">Hair Treatments</a></li>
+                            <li><a href="#">Hair Extensions</a></li>
+                            <li><a href="#">Keratin Treatment</a></li>
+                            <li><a href="#">Bridal Packages</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-bottom">
+                        <p>&copy; 2023 Elegance Salon. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>AOS.init();</script>
+    <!-- Custom JavaScript -->
+    <script src="site 3.js"></script>
+</body>
+</html>
